@@ -7,6 +7,7 @@ import { chargerJson, enregistrerJson } from './src/stockage.js';
 import { ajouterReleve, formaterReleve, listerReleves, trouverParId } from './src/registre.js';
 import { SEUIL_JOUR_PLUVIEUX, joursPluvieux, trierParPluie, trierParTemperature, trouverParDate } from './src/recherche.js';
 import { cumulPluie, moyenneTemperature, temperatureMinMax } from './src/synthese.js';
+import { journeeLaPlusChaude, modifierReleve, supprimerReleve,trierParTemperatureDecroissante} from './src/bonus.js';
 
 const FICHIER_DONNEES = 'donnees/releves.json';
 

@@ -61,6 +61,7 @@ export function verifierReleve(saisie, releves) {
 
   return erreurs;
 }
+// Fabrique le relevé a enregistrer a partir d'une saisie VALIDE:Les trois mesure devient des nombre.
 export function creerReleve(saisie) {
   return {
     id: saisie.id,
