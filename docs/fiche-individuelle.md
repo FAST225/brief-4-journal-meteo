@@ -39,5 +39,6 @@ Localisé la ligne indiquée dans le message d'erreur.
 Vérifié les accolades et les blocs conditionnels de la fonction.
 Vérifié que le return se trouvait bien à l'intérieur de la fonction.
 Comparé la structure de la fonction avec la syntaxe attendue.
-3. **L'entraide** (qui m'a aidé, qui j'ai aidé, sur quoi) : KOUASSI ANGLOVIA m'a aide sur la recherche dans un tableau et la notion de max et min.
-j'ai aidé Falle jaures,irie bi,Levi anoh,Ouedraogo Bourahima,...
+
+3. **L'entraide** (qui m'a aidé, qui j'ai aidé, sur quoi) : KOUASSI ANGLOVIA m'a aide sur la recherche dans un tableau et la notion de MATH.max et MATH.min .
+j'ai aidé Falle jaures,irie bi,Levi anoh,Ouedraogo Bourahima,Kouame Kouadio Florent,Brou Grace Emmanuella,Kone ABDOULAYE,...

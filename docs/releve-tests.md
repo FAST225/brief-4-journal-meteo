@@ -17,21 +17,21 @@ Les essais suivants sont un protocole de vérification à jouer sur le poste de 
 
 | Action | Attendu | Obtenu | Testeur |
 | --- | --- | --- | --- |
-| Ajouter un relevé valide, quitter puis relancer | Le relevé est toujours présent après redémarrage | Le relevé est toujours présent après redémarrage effectivement | M11 | 2026-11-03 | 28 °C | 6 mm | air 76 % |
+| Ajouter un relevé valide, quitter puis relancer | Le relevé est toujours présent après redémarrage | Le relevé est toujours présent après redémarrage effectivement | M11 | 2026-11-03 | 28 °C | 6 mm | KROMAN SAMUEL |
 
 | Saisir une pluie négative | Saisie refusée, journal inchangé |Relevé refusé :
-  - La pluie doit être un nombre positif ou nul (en mm), journal inchangé  |-12 |
+  - La pluie doit être un nombre positif ou nul (en mm), journal inchangé  |KROMAN SAMUEL |
 
 | Saisir une humidité de 101 % | Saisie refusée, journal inchangé | Relevé refusé :
-  - L'humidité relative de l'air doit être un nombre entre 0 et 100 (%),journal inchangé.| 101  |
+  - L'humidité relative de l'air doit être un nombre entre 0 et 100 (%),journal inchangé.| KROMAN SAMUEL  |
 
 | Rechercher la date `2026-10-22` | Le relevé M08 est affiché | Date (AAAA-MM-JJ) : 2026-10-22
-M08 | 2026-10-22 | 26 °C | 15 mm | air 85 % | 2026-10-22 |
+M08 | 2026-10-22 | 26 °C | 15 mm | air 85 % | KROMAN SAMUEL |
 
 | Rechercher la date `2026-10-30` | Message indiquant que le relevé est introuvable | Date (AAAA-MM-JJ) : 2026-10-30
-Relevé du 2026-10-30 introuvable. | 2026-10-30 |
+Relevé du 2026-10-30 introuvable. | KROMAN SAMUEL |
 
-| Trier par pluie | Les pluies apparaissent par ordre croissant, le journal initial reste inchangé | À exécuter | 2026-10-30 |
+| Trier par pluie | Les pluies apparaissent par ordre croissant, le journal initial reste inchangé | À exécuter | KROMAN SAMUEL |
 
 | Afficher la synthèse | 28 °C ; 26 °C ; 30 °C ; 45 mm ; 2 journées pluvieuses | M03 | 2026-10-17 | 26 °C | 12 mm | air 82 %
 M08 | 2026-10-22 | 26 °C | 15 mm | air 85 %
@@ -43,9 +43,9 @@ M11 | 2026-11-03 | 28 °C | 6 mm | air 76 %
 M04 | 2026-10-18 | 29 °C | 0 mm | air 70 %
 M09 | 2026-10-23 | 29 °C | 0 mm | air 72 %
 M06 | 2026-10-20 | 30 °C | 0 mm | air 68 %
-M10 | 2026-10-24 | 30 °C | 2 mm | air 74 % | trier par temperature |
+M10 | 2026-10-24 | 30 °C | 2 mm | air 74 % |  |
 
-| Entrer un choix inconnu | Message de choix inconnu puis retour au menu | Choix inconnu : « 9 ». Tapez un chiffre du menu. | 9 |
+| Entrer un choix inconnu | Message de choix inconnu puis retour au menu | Choix inconnu : « 9 ». Tapez un chiffre du menu. | 9 |KROMAN SAMUEL
 
 |Faire une synthese de la serie| Afficher la synthese de la serie|--- Synthèse de la série ---
 Nombre de relevés : 10
@@ -57,11 +57,11 @@ Journée la plus chaude : M06 | 2026-10-20 | 30 °C | 0 mm | air 68 %
 Rappels :
   - Quelques jours de relevés forment une courte série météo : ils ne décrivent pas le climat de la région.
   - Le seuil de 10 mm est une catégorie d’exercice : il ne prévoit ni inondation ni stress hydrique.
-  - L'humidité relative de l'air (en %) n'est pas l'humidité du sol.|choix 5
+  - L'humidité relative de l'air (en %) n'est pas l'humidité du sol.|KROMAN SAMUEL
 
 |Suprimer un relevé|Le releve a étè supprimer,avec le journal à jour |Identifiant : M11
-Relevé M11 supprimé. Le journal compte 10 relevé(s).|
+Relevé M11 supprimé. Le journal compte 10 relevé(s).|KROMAN SAMUEL
 
-|Modifier un releve|le releve a ete modifier| Modification refuser|id:M10,date:2026-10-05
+|Modifier un releve|le releve a ete modifier| Modification refuser|KROMAN SAMUEL
 
-**Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
+**Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : oui effectuer CHEZ KROMAN SAMUEL
